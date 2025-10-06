@@ -1,4 +1,4 @@
-package com.avinashsinha.SN01_Selenium_Basics;
+package com.avinashsinha.SN02_Selenium_Locators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
@@ -9,7 +9,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SB09_Test_Selenium_Project {
+public class SL01_Test_Selenium_Mini_Project_1 {
 
     @Test
     @Description("TC#1 : Verify the Error message on the VWO Login Page")
@@ -19,6 +19,8 @@ public class SB09_Test_Selenium_Project {
         edgeOptions.addArguments("--start-maximized");
 
         WebDriver driver = new EdgeDriver(edgeOptions);
+
+        driver.manage().deleteAllCookies();
 
         driver.navigate().to("https://app.vwo.com/#/login");
 
@@ -81,7 +83,7 @@ public class SB09_Test_Selenium_Project {
         </div>
         */
 
-        WebElement errorMessage = driver.findElement(By.id("js-notification-box-msg"));
+        WebElement errorMessage = driver.findElement(By.className("notification-box-description"));
         Assert.assertEquals(errorMessage.getText(), "Your email, password, IP address or location did not match");
 
         driver.quit();
