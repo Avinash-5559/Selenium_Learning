@@ -43,7 +43,6 @@ public class SXP01_Test_Selenium_Mini_Project_1 {
         Assert.assertEquals(driver.getCurrentUrl(), "https://katalon-demo-cura.herokuapp.com/#appointment");
 
         WebElement appointText = driver.findElement(By.xpath("//h2[contains(text(),'Make Appointment')]"));
-
         Assert.assertEquals(appointText.getText(), "Make Appointment");
 
         driver.quit();
