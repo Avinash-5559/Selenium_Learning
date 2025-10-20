@@ -74,9 +74,9 @@ Selenium_Learning/
 │           └── SN17_Selenium_DataDrivenTestingPOI/
 │
 │   └── resources/
-│       └── TestData.xlsx                            # Test data for Excel-driven tests
+│       └── TestData.xlsx                              # Test data for Excel-driven tests
 │
-├── testNG-xmls/                                     # Collection of TestNG suite XMLs
+├── testNG-xmls/                                       # Collection of TestNG suite XMLs
 │   ├── testng_SAC01_Test_Selenium.xml
 │   ├── testng_SB01_Test_Selenium.xml
 │   ├── testng_SUI01_Test_Selenium.xml
