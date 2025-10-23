@@ -8,8 +8,12 @@
 ![Apache POI](https://img.shields.io/badge/Apache%20POI-Excel%20DataDriven-2496ED?logo=apache&logoColor=white)
 ![Allure](https://img.shields.io/badge/Allure-Reports-FF69B4?logo=qameta&logoColor=white)
 
+---
+
+## 🗂️ Overview  
 
 This project is a **UI Automation Learning Framework** built using **Selenium WebDriver**, **Java**, and **TestNG**.
+
 It demonstrates end-to-end **Selenium concepts**, including locators, waits, user interactions, JavaScript Executor, file uploads, window handling, and data-driven testing using **Apache POI** and **Excel**.
 
 ---
