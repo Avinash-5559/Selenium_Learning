@@ -32,14 +32,15 @@ It demonstrates end-to-end **Selenium concepts**, including locators, waits, use
 ---
 
 ## ⚙️ Tech Stack
+
 - **Java 11+**
-- **IntelliJ IDEA** (IDE for development)
-- **Maven** (Build and dependency management)
-- **Selenium WebDriver** (Browser automation)
-- **TestNG** (Testing framework)
-- **Apache POI** (Excel-driven data management)
-- **Allure Reports** (Reporting)
-- **Hybrid Learning Structure** (Each module focused on a Selenium concept)
+- **IntelliJ IDEA** – IDE for development
+- **Maven** – Build & dependency management
+- **Selenium WebDriver** – Browser automation
+- **TestNG** – Testing framework
+- **Apache POI** – Excel-based data handling
+- **Allure Reports** – Reporting framework
+- **Hybrid Learning Structure** – Each module focused on a Selenium concept
 
 ---
 
