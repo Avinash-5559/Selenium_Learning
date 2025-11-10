@@ -1,0 +1,50 @@
+package com.avinashsinha.SN04_Selenium_Waits;
+
+import io.qameta.allure.Description;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import java.time.Duration;
+
+public class SW03_Test_Selenium_ExplicitWait {
+
+    @Test
+    @Description("TC#1 : Verify the Error message on the VWO Login Page")
+    public void test_VWOLogin_Negative() {
+
+        WebDriver driver = new EdgeDriver();
+
+        driver.manage().deleteAllCookies();
+        driver.manage().window().maximize();
+
+        driver.get("https://app.vwo.com/#/login");
+
+        WebElement emailInputBox = driver.findElement(By.xpath("//input[@id='login-username']"));
+        emailInputBox.sendKeys("admin@admin.com");
+
+        WebElement passwordInputBox = driver.findElement(By.xpath("//input[@id='login-password']"));
+        passwordInputBox.sendKeys("admin");
+
+        WebElement buttonSignIn = driver.findElement(By.xpath("//button[@id='js-login-btn']"));
+        buttonSignIn.click();
+
+        //------------------------------ Explicit Wait ------------------------------
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='js-notification-box-msg']")));
+
+        WebElement errorMessage = driver.findElement(By.xpath("//div[@id='js-notification-box-msg']"));
+
+        //wait.until(ExpectedConditions.textToBePresentInElement(errorMessage, "Your email, password, IP address or location did not match"));
+
+        Assert.assertEquals(errorMessage.getText(), "Your email, password, IP address or location did not match");
+
+        driver.quit();
+    }
+}
