@@ -45,18 +45,18 @@ It demonstrates end-to-end **Selenium concepts**, including locators, waits, use
 ---
 
 ## 🏗️ Project Structure
-```base
+```bash
 Selenium_Learning/
 │
-├── .allure/                                           # Allure configuration
-├── .idea/                                             # IntelliJ IDEA project settings
-├── allure-results/                                    # Allure report results (generated after test runs)
-├── pom.xml                                            # Maven dependencies and plugins
+├── .allure/                                               # Allure configuration
+├── .idea/                                                 # IntelliJ IDEA project settings
+├── allure-results/                                        # Allure report results (generated after test runs)
+├── pom.xml                                                # Maven dependencies and plugins
 ├── .gitignore
 │
 ├── src/
 │   ├── main/
-│   │   └── java/com/avinashsinha/                     # Utility and helper classes (if any)
+│   │   └── java/com/avinashsinha/                         # Utility and helper classes (if any)
 │   │
 │   └── test/
 │       └── java/com/avinashsinha/
@@ -79,9 +79,9 @@ Selenium_Learning/
 │           └── SN17_Selenium_DataDrivenTestingPOI/
 │
 │   └── resources/
-│       └── TestData.xlsx                              # Test data for Excel-driven tests
+│       └── TestData.xlsx                                  # Test data for Excel-driven tests
 │
-├── testNG-xmls/                                       # Collection of TestNG suite XMLs
+├── testNG-xmls/                                           # Collection of TestNG suite XMLs
 │   ├── testng_SAC01_Test_Selenium.xml
 │   ├── testng_SB01_Test_Selenium.xml
 │   ├── testng_SUI01_Test_Selenium.xml
