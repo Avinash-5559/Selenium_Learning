@@ -45,43 +45,114 @@ It demonstrates end-to-end **Selenium concepts**, including locators, waits, use
 ---
 
 ## 🏗️ Project Structure
+
 ```bash
 Selenium_Learning/
 │
-├── .allure/                                               # Allure configuration
-├── .idea/                                                 # IntelliJ IDEA project settings
-├── allure-results/                                        # Allure report results (generated after test runs)
-├── pom.xml                                                # Maven dependencies and plugins
+├── .allure/                                                            # Allure configuration
+├── .idea/                                                              # IntelliJ IDEA project files
+├── .mvn/                                                               # Maven wrapper files
+├── allure-report/                                                      # Allure generated HTML report
+├── allure-results/                                                     # Allure results after test execution
+├── pom.xml                                                             # Maven dependencies & build setup
 ├── .gitignore
 │
 ├── src/
 │   ├── main/
-│   │   └── java/com/avinashsinha/                         # Utility and helper classes (if any)
+│   │   └── java/com.avinashsinha/                        
 │   │
-│   └── test/
-│       └── java/com/avinashsinha/
-│           ├── SN01_Selenium_Basics/
-│           ├── SN02_Selenium_Locators/
-│           ├── SN03_Selenium_XPath/
-│           ├── SN04_Selenium_Waits/
-│           ├── SN05_Selenium_ULElements/
-│           ├── SN06_Selenium_WaitHelper/
-│           ├── SN07_Selenium_SVG_Elements/
-│           ├── SN08_Selenium_Mini_Project/
-│           ├── SN09_Selenium_WebTables/
-│           ├── SN10_Selenium_ActionClass/
-│           ├── SN11_Selenium_FileUpload/
-│           ├── SN12_Selenium_Windows/
-│           ├── SN13_Selenium_JS_Executor/
-│           ├── SN14_Selenium_JS_Executor_ShadowDOM/
-│           ├── SN15_Selenium_Relative_Locators/
-│           ├── SN16_Selenium_Exceptions/
-│           └── SN17_Selenium_DataDrivenTestingPOI/
-│
+│   ├── test/
+│   │   └── java/com.avinashsinha/
+│   │       ├── TestCaseBoilerPlate.java
+│   │       │
+│   │       ├── SN01_Selenium_Basics/
+│   │       │   ├── SB01_Test_Selenium.java
+│   │       │   ├── SB02_Test_Selenium.java
+│   │       │   ├── SB03_Test_Selenium.java
+│   │       │   ├── SB04_Test_Selenium.java
+│   │       │   ├── SB05_Test_Selenium.java
+│   │       │   ├── SB06_Test_Selenium.java
+│   │       │   ├── SB07_Test_Selenium.java
+│   │       │   └── SB08_Test_Selenium.java
+│   │       │
+│   │       ├── SN02_Selenium_Locators/
+│   │       │   ├── SL01_Test_Selenium_Mini_Project_1.java
+│   │       │   ├── SL02_Test_Selenium_Mini_Project_2.java
+│   │       │   └── SL03_Test_Selenium_Mini_Project_3.java
+│   │       │
+│   │       ├── SN03_Selenium_XPath/
+│   │       │   └── SXP01_Test_Selenium_Mini_Project_1.java
+│   │       │
+│   │       ├── SN04_Selenium_Waits/
+│   │       │   ├── SW01_Test_Selenium_ThreadSleep.java
+│   │       │   ├── SW02_Test_Selenium_ImplicitWait.java
+│   │       │   ├── SW03_Test_Selenium_ExplicitWait.java
+│   │       │   ├── SW04_Test_Selenium_MiniProject_1.java
+│   │       │   └── SW05_Test_Selenium_FluentWait.java
+│   │       │
+│   │       ├── SN05_Selenium_ULElements/
+│   │       │   ├── SUI01_Test_Selenium_InputBox.java
+│   │       │   ├── SUI02_Test_Selenium_CheckBox.java
+│   │       │   ├── SUI03_Test_Selenium_RadioButton.java
+│   │       │   ├── SUI04_Test_Selenium_StaticSelect.java
+│   │       │   ├── SUI05_Test_Selenium_JavaScriptAlert.java
+│   │       │   ├── SUI06_Test_Selenium_JavaScriptConfirm.java
+│   │       │   └── SUI07_Test_Selenium_JavaScriptPrompt.java
+│   │       │
+│   │       ├── SN06_Selenium_WaitHelper/
+│   │       │   └── SWH01_Test_Selenium_WaitHelper.java
+│   │       │
+│   │       ├── SN07_Selenium_SVG_Elements/
+│   │       │   ├── SSVGE01_Test_Selenium.java
+│   │       │   └── SSVGE02_Test_Selenium.java
+│   │       │
+│   │       ├── SN08_Selenium_Mini_Project/
+│   │       │   └── SMP01_Test_Selenium.java
+│   │       │
+│   │       ├── SN09_Selenium_WebTables/
+│   │       │   ├── SWT01_Test_Selenium_StaticWebTable.java
+│   │       │   └── SWT02_Test_Selenium_DynamicWebTable.java
+│   │       │
+│   │       ├── SN10_Selenium_ActionClass/
+│   │       │   ├── SAC01_Test_Selenium.java
+│   │       │   ├── SAC02_Test_Selenium.java
+│   │       │   ├── SAC03_Test_Selenium.java
+│   │       │   ├── SAC04_Test_Selenium.java
+│   │       │   └── SAC05_Test_Selenium.java
+│   │       │
+│   │       ├── SN11_Selenium_FileUpload/
+│   │       │   ├── FileUpload.txt
+│   │       │   └── SFU01_Test_Selenium.java
+│   │       │
+│   │       ├── SN12_Selenium_Windows/
+│   │       │   └── SWD01_Test_Selenium.java
+│   │       │
+│   │       ├── SN13_Selenium_JS_Executor/
+│   │       │   └── SJS01_Test_Selenium.java
+│   │       │
+│   │       ├── SN14_Selenium_JS_Executor_ShadowDOM/
+│   │       │   └── SDOM01_Test_Selenium.java
+│   │       │
+│   │       ├── SN15_Selenium_Relative_Locators/
+│   │       │   ├── SRL01_Test_Selenium.java
+│   │       │   ├── SRL02_Test_Selenium.java
+│   │       │   └── SRL03_Test_Selenium.java
+│   │       │
+│   │       ├── SN16_Selenium_Exceptions/
+│   │       │   ├── SEO01_Test_Selenium_NoSuchElement.java
+│   │       │   ├── SEO02_Test_Selenium_StaleElement.java
+│   │       │   ├── SEO02_Test_Selenium_StaleElement_FIX.java
+│   │       │   └── SEO03_Test_Selenium_TimeOut.java
+│   │       │
+│   │       └── SN17_Selenium_DataDrivenTestingPOI/
+│   │           ├── SDDT01_Test_Selenium.java
+│   │           ├── SDDT02_Test_Selenium.java
+│   │           └── UtilExcel.java
+│   │
 │   └── resources/
-│       └── TestData.xlsx                                  # Test data for Excel-driven tests
+│       └── TestData.xlsx
 │
-├── testNG-xmls/                                           # Collection of TestNG suite XMLs
+├── testNG-xmls/                                                        # Organized TestNG suite files
 │   ├── testng_SAC01_Test_Selenium.xml
 │   ├── testng_SB01_Test_Selenium.xml
 │   ├── testng_SUI01_Test_Selenium.xml
@@ -89,9 +160,10 @@ Selenium_Learning/
 │   ├── testng_SSVG01_Test_Selenium.xml
 │   ├── testng_SXP01_Test_Selenium.xml
 │   ├── testng_UtilExcel.xml
-│   └── ... (additional suite files)
+│   └── ... (many additional suite files)
 │
 └── README.md
+
 
 ```
 ---
