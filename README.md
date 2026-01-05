@@ -18,19 +18,6 @@ It demonstrates end-to-end **Selenium concepts**, including locators, waits, use
 
 ---
 
-## 🚀 Features
-- Practical examples covering all **Selenium fundamentals**
-- Each topic implemented in a separate Java package (modular design)
-- Includes real-world examples for:
-  - **Locators, XPath, Waits, WebTables**
-  - **Actions Class, Windows/Frames Handling**
-  - **JavaScript Executor, Shadow DOM, Relative Locators**
-  - **Data-Driven Testing using Apache POI**
-- Organised **TestNG suite files** for easy test execution
-- Integrated **Allure Reporting** for detailed and visually appealing reports
-
----
-
 ## ⚙️ Tech Stack
 
 - **Java 11+**
@@ -41,6 +28,19 @@ It demonstrates end-to-end **Selenium concepts**, including locators, waits, use
 - **Apache POI** – Excel-based data handling
 - **Allure Reports** – Reporting framework
 - **Hybrid Learning Structure** – Each module focused on a Selenium concept
+
+---
+
+## 🚀 Features
+- Practical examples covering all **Selenium fundamentals**
+- Each topic implemented in a separate Java package (modular design)
+- Includes real-world examples for:
+  - **Locators, XPath, Waits, WebTables**
+  - **Actions Class, Windows/Frames Handling**
+  - **JavaScript Executor, Shadow DOM, Relative Locators**
+  - **Data-Driven Testing using Apache POI**
+- Organised **TestNG suite files** for easy test execution
+- Integrated **Allure Reporting** for detailed and visually appealing reports
 
 ---
 
@@ -163,9 +163,8 @@ Selenium_Learning/
 │   └── ... (many additional suite files)
 │
 └── README.md
-
-
 ```
+
 ---
 
 ## ▶️ Running Tests
@@ -188,21 +187,25 @@ mvn clean test -DsuiteXmlFile=testng_SAC01_Test_Selenium.xml
 | `testng_UtilExcel.xml`            | Excel Data-Driven Tests    |
 
 ---
+
 ## 📊 Reporting
+
 ### Generate Allure Report
+
 ```bash
 allure serve allure-results
 ```
+
 This will launch an interactive **Allure report dashboard** in your browser.
 
 Example Allure dashboard view:
 
 ![a](https://github.com/user-attachments/assets/11e3071c-0d24-43b5-8ecc-f4049fc46928)
 
-
 ---
 
 ## 🧩 Example — Data-Driven Test with Apache POI
+
 ```java
 @Test(dataProvider = "ExcelDataProvider")
 public void loginTest(String username, String password) {
@@ -212,7 +215,9 @@ public void loginTest(String username, String password) {
     driver.findElement(By.id("loginBtn")).click();
 }
 ```
+
 ---
+
 ## 📚 Selenium Learning Modules
 
 | Module | Topic                            |
@@ -238,9 +243,11 @@ public void loginTest(String username, String password) {
 ---
 
 ## 📌 Author
+
 👤 Avinash Sinha
 
 ---
+
 📝 This repository is created exclusively for **educational and practice use**.
 
 ---
