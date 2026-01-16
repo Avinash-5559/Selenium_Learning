@@ -27,7 +27,7 @@ public class SB06_Test_Selenium {
 
         // edgeOptions.addArguments("--start-maximized");
 
-        edgeOptions.addArguments("--headless");
+        edgeOptions.addArguments("--headless-new");
 
         EdgeDriver driver = new EdgeDriver(edgeOptions);
 
