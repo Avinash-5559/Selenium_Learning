@@ -1,4 +1,4 @@
-package com.avinashsinha.SN16_Selenium_Exceptions;
+package com.avinashsinha.SN18_Selenium_Exceptions;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.*;

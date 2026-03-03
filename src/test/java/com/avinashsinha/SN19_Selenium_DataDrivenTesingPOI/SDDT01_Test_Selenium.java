@@ -1,4 +1,4 @@
-package com.avinashsinha.SN17_Selenium_DataDrivenTesingPOI;
+package com.avinashsinha.SN19_Selenium_DataDrivenTesingPOI;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
