@@ -1,6 +1,7 @@
 package com.avinashsinha.SN07_Selenium_SVG_Elements;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,8 +30,9 @@ public class SSVGE02_Test_Selenium {
 
     }
 
-    @Description("Verify Tripura is present in the map and click to zoom it")
     @Test
+    @Description("Verify Tripura is present in the map and click to zoom it")
+    @Owner("Avinash Sinha")
     public void test_India_Map_SVG() {
 
         String URL = "https://www.amcharts.com/svg-maps/?map=india";

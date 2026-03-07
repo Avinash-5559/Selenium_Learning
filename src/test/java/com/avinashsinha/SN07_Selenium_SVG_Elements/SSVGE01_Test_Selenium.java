@@ -1,6 +1,7 @@
 package com.avinashsinha.SN07_Selenium_SVG_Elements;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,8 +31,9 @@ public class SSVGE01_Test_Selenium {
 
     }
 
-    @Description("Verify the SVG Icon on Flipkart search Bar")
     @Test
+    @Description("Verify the SVG Icon on Flipkart search Bar")
+    @Owner("Avinash Sinha")
     public void test_Flipkart_Search_SVG_Icon() {
 
         String URL = "https://www.flipkart.com/search";

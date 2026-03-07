@@ -1,6 +1,7 @@
 package com.avinashsinha.SN02_Selenium_Locators;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,7 @@ public class SL02_Test_Selenium_Mini_Project_2 {
 
     @Test
     @Description("TC#1 : Verify to Click the VWO Trial Link")
+    @Owner("Avinash Sinha")
     public void test_VerifyClickTrialLink() throws Exception {
 
         EdgeOptions edgeOptions = new EdgeOptions();

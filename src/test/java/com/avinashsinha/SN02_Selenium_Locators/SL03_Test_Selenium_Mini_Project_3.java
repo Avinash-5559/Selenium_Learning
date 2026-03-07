@@ -16,8 +16,8 @@ import java.util.List;
 public class SL03_Test_Selenium_Mini_Project_3 {
 
     @Test
-    @Owner("Avinash Sinha")
     @Description("TC#1 : Verify the Error Message during Sign Up")
+    @Owner("Avinash Sinha")
     @Severity(SeverityLevel.BLOCKER)
     public void test_VerifyErrorMessage() {
 

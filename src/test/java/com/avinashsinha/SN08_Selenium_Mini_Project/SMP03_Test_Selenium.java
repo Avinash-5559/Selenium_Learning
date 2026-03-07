@@ -56,7 +56,7 @@ public class SMP03_Test_Selenium {
         WebElement loginButton = wait.until(ExpectedConditions.visibilityOfElementLocated(loginButtonLocator));
         loginButton.click();
 
-        By addToCartButtonLocator = By.xpath("(//button[contains(@id,'add-to-cart')])[4]");
+        By addToCartButtonLocator = By.xpath("//div[@class='inventory_item_description']/div/button[contains(@id,'add-to-cart-sauce-labs-fleece-jacket')]");
         WebElement addToCartButton = wait.until(ExpectedConditions.visibilityOfElementLocated(addToCartButtonLocator));
         addToCartButton.click();
 

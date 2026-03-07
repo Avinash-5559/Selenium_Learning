@@ -1,6 +1,7 @@
 package com.avinashsinha.SN08_Selenium_Mini_Project;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,16 +26,17 @@ public class SMP01_Test_Selenium {
 
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--inprivate");
+        edgeOptions.addArguments("--start-maximized");
         //edgeOptions.addArguments("--headless=new");
 
         driver = new EdgeDriver(edgeOptions);
         driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
 
     }
 
     @Test
     @Description("TC#1 : Verify to entering the Details and Logout from the Website")
+    @Owner("Avinash Sinha")
     public void test_CURA_HealthService() {
 
         String URL = "https://katalon-demo-cura.herokuapp.com/";

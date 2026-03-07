@@ -1,7 +1,8 @@
-package com.avinashsinha.SN15_Selenium_Relative_Locators;
+package com.avinashsinha.SN17_Selenium_Relative_Locators;
 
 import com.avinashsinha.TestCaseBoilerPlate;
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -17,6 +18,7 @@ public class SRL03_Test_Selenium extends TestCaseBoilerPlate {
 
     @Test
     @Description("TC#1 : Verify the Relative Locators")
+    @Owner("Avinash Sinha")
     public void test_RelativeLocators() {
 
         String URL = "https://www.aqi.in/real-time-most-polluted-city-ranking";

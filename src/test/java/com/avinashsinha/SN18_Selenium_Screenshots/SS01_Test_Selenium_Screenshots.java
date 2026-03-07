@@ -1,4 +1,4 @@
-package com.avinashsinha.SN16_Selenium_Screenshots;
+package com.avinashsinha.SN18_Selenium_Screenshots;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
