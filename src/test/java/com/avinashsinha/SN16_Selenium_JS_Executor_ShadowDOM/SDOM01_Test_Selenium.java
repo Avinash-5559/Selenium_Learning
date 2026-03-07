@@ -1,7 +1,8 @@
-package com.avinashsinha.SN14_Selenium_JS_Executor_ShadowDOM;
+package com.avinashsinha.SN16_Selenium_JS_Executor_ShadowDOM;
 
 import com.avinashsinha.TestCaseBoilerPlate;
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -11,6 +12,7 @@ public class SDOM01_Test_Selenium extends TestCaseBoilerPlate {
 
     @Test
     @Description("TC#1 : Verify the JS Executor Shadow DOM")
+    @Owner("Avinash Sinha")
     public void test_JSExecutorShadowDOM() {
 
         String URL = "https://selectorshub.com/xpath-practice-page/";

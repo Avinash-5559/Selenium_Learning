@@ -1,4 +1,4 @@
-package com.avinashsinha.SN19_Selenium_DataDrivenTesingPOI;
+package com.avinashsinha.SN21_Selenium_DataDrivenTesingPOI;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,11 +24,11 @@ public class SDDT02_Test_Selenium {
 
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--inprivate");
+        edgeOptions.addArguments("--start-maximized");
         //edgeOptions.addArguments("--headless=new");
 
         driver = new EdgeDriver(edgeOptions);
         driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
 
     }
 

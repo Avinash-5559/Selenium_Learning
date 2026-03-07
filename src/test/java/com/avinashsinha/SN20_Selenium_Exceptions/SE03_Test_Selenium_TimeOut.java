@@ -1,6 +1,7 @@
-package com.avinashsinha.SN16_Selenium_Exceptions;
+package com.avinashsinha.SN20_Selenium_Exceptions;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,16 +24,17 @@ public class SE03_Test_Selenium_TimeOut {
 
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--inprivate");
+        edgeOptions.addArguments("--start-maximized");
         //edgeOptions.addArguments("--headless=new");
 
         driver = new EdgeDriver(edgeOptions);
         driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
 
     }
 
     @Test
     @Description("TC#1 : Verify the Time Out Exception")
+    @Owner("Avinash Sinha")
     public void test_TimeOutException() {
 
         System.out.println("Start of the Program");

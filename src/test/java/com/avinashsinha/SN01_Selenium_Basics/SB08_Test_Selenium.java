@@ -3,6 +3,7 @@ package com.avinashsinha.SN01_Selenium_Basics;
 // Proxy : You can use the Proxy to access the internet without showing your own location or IP address.
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -13,6 +14,7 @@ public class SB08_Test_Selenium {
 
     @Test
     @Description("TC#1 : Verify the Proxy")
+    @Owner("Avinash Sinha")
     public void test_VerifyProxy() throws Exception {
 
         EdgeOptions edgeOptions = new EdgeOptions();

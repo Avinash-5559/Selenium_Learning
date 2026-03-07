@@ -1,6 +1,7 @@
-package com.avinashsinha.SN16_Selenium_Exceptions;
+package com.avinashsinha.SN20_Selenium_Exceptions;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
@@ -17,16 +18,17 @@ public class SE02_Test_Selenium_StaleElement_FIX {
 
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--inprivate");
+        edgeOptions.addArguments("--start-maximized");
         //edgeOptions.addArguments("--headless=new");
 
         driver = new EdgeDriver(edgeOptions);
         driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
 
     }
 
     @Test
     @Description("TC#1 : Verify the Stale Element")
+    @Owner("Avinash Sinha")
     public void test_StaleElement() {
 
         driver.get("https://www.google.com/?zx=1760353619725&no_sw_cr=1");

@@ -1,6 +1,7 @@
 package com.avinashsinha.SN02_Selenium_Locators;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,6 +14,7 @@ public class SL01_Test_Selenium_Mini_Project_1 {
 
     @Test
     @Description("TC#1 : Verify the Error message on the VWO Login Page")
+    @Owner("Avinash Sinha")
     public void test_VWOLogin_Negative() throws Exception {
 
         EdgeOptions edgeOptions = new EdgeOptions();

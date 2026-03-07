@@ -3,6 +3,7 @@ package com.avinashsinha.SN01_Selenium_Basics;
 // Extension for CRX File Download : https://chromewebstore.google.com/detail/crx-extractordownloader/ajkhmmldknmfjnmeedkbkkojgobmljda
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
@@ -14,6 +15,7 @@ public class SB07_Test_Selenium {
 
     @Test
     @Description("TC#1 : Option Class")
+    @Owner("Avinash Sinha")
     public void test_VerifyOptionClass() {
 
         EdgeOptions edgeOptions = new EdgeOptions();

@@ -3,6 +3,7 @@ package com.avinashsinha.SN01_Selenium_Basics;
 // Website : https://peter.sh/experiments/chromium-command-line-switches/
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;
@@ -11,6 +12,7 @@ public class SB06_Test_Selenium {
 
     @Test
     @Description("TC#1 : Option Class")
+    @Owner("Avinash Sinha")
     public void test_VerifyOptionClass() throws Exception {
 
         EdgeOptions edgeOptions = new EdgeOptions();

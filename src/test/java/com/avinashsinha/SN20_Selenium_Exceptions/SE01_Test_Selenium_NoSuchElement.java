@@ -1,14 +1,17 @@
-package com.avinashsinha.SN18_Selenium_Exceptions;
+package com.avinashsinha.SN20_Selenium_Exceptions;
 
 import io.qameta.allure.Description;
-import org.openqa.selenium.*;
+import io.qameta.allure.Owner;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class SE02_Test_Selenium_StaleElement {
+public class SE01_Test_Selenium_NoSuchElement {
 
     public WebDriver driver;
 
@@ -17,33 +20,29 @@ public class SE02_Test_Selenium_StaleElement {
 
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--inprivate");
+        edgeOptions.addArguments("--start-maximized");
         //edgeOptions.addArguments("--headless=new");
 
         driver = new EdgeDriver(edgeOptions);
         driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
 
     }
 
     @Test
-    @Description("TC#1 : Verify the Stale Element")
-    public void test_StaleElement() {
+    @Description("TC#1: Verify the No Such Element Exception")
+    @Owner("Avinash Sinha")
+    public void test_NoSuchElementException() {
 
-        driver.get("https://www.google.com/?zx=1760353619725&no_sw_cr=1");
-
+        driver.get("https://app.vwo.com/");
         System.out.println("Start of the Program");
 
-        WebElement searchInputBox = driver.findElement(By.id("APjFqb"));
-
-        driver.navigate().refresh();
-
         try {
-            searchInputBox.sendKeys("the testing academy" + Keys.ENTER);
-        } catch (StaleElementReferenceException e) {
-            System.out.println("StaleElementReferenceException");
+            driver.findElement(By.id("pramod"));
+        } catch (NoSuchElementException e) {
+            System.out.println("Element Not Found");
         }
 
-        //org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+        //org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pramod"}
 
         System.out.println("End of the Program");
     }

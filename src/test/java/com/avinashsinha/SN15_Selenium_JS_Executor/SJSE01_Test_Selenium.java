@@ -1,16 +1,18 @@
-package com.avinashsinha.SN13_Selenium_JS_Executor;
+package com.avinashsinha.SN15_Selenium_JS_Executor;
 
 import com.avinashsinha.TestCaseBoilerPlate;
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class SJS01_Test_Selenium extends TestCaseBoilerPlate {
+public class SJSE01_Test_Selenium extends TestCaseBoilerPlate {
 
     @Test
     @Description("TC#1 : Verify the JavaScript Executor")
+    @Owner("Avinash Sinha")
     public void test_JavaScriptExecutor() {
 
         String URL = "https://selectorshub.com/xpath-practice-page/";
