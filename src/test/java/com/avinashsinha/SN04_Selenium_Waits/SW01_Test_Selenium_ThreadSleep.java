@@ -1,6 +1,7 @@
 package com.avinashsinha.SN04_Selenium_Waits;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,7 @@ public class SW01_Test_Selenium_ThreadSleep {
 
     @Test
     @Description("TC#1 : Verify the Error message on the VWO Login Page")
+    @Owner("Avinash Sinha")
     public void test_VWOLogin_Negative() throws Exception {
 
         WebDriver driver = new EdgeDriver();

@@ -1,7 +1,8 @@
-package com.avinashsinha.SN12_Selenium_Windows;
+package com.avinashsinha.SN14_Selenium_Windows;
 
 import com.avinashsinha.TestCaseBoilerPlate;
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -14,6 +15,7 @@ public class SWD01_Test_Selenium extends TestCaseBoilerPlate {
 
     @Test
     @Description("TC#1 : Verify the Windows Handle")
+    @Owner("Avinash Sinha")
     public void test_WindowsHandle() {
 
         String URL = "https://the-internet.herokuapp.com/windows";

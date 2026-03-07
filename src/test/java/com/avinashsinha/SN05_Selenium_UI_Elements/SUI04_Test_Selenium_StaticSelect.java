@@ -1,6 +1,7 @@
 package com.avinashsinha.SN05_Selenium_UI_Elements;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,7 @@ public class SUI04_Test_Selenium_StaticSelect {
 
     @Test
     @Description("TC#1 : Verify the Static Select")
+    @Owner("Avinash Sinha")
     public void test_VerifyStaticSelect() {
 
         WebDriver driver = new EdgeDriver();

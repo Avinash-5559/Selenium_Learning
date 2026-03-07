@@ -1,6 +1,7 @@
 package com.avinashsinha.SN09_Selenium_WebTables;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -10,15 +11,18 @@ import org.testng.annotations.Test;
 public class SWT01_Test_Selenium_StaticWebTable {
 
     @Test
-    @Description("Verify the Web Tables")
+    @Description("Verify the Static Web Tables")
+    @Owner("Avinash Sinha")
     public void test_WebTables() throws Exception {
 
         EdgeOptions edgeOptions = new EdgeOptions();
-        edgeOptions.addArguments("--headless=new");
+        edgeOptions.addArguments("--inprivate");
+        edgeOptions.addArguments("--start-maximized");
+        //edgeOptions.addArguments("--headless=new");
 
         WebDriver driver = new EdgeDriver(edgeOptions);
         driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
+
         driver.get("https://awesomeqa.com/webtable.html");
 
         // XPath : //table[@id='customers']/tbody/tr[5]/td[2]

@@ -1,9 +1,9 @@
-package com.avinashsinha.SN17_Selenium_Update_JSON;
+package com.avinashsinha.SN19_Selenium_Update_JSON;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class SUJ01_Test_JSON_Update {
+public class SUJ01_Test_Selenium_JSON_Update {
     public static void main(String[] args) {
 
         String jsonPayload = """

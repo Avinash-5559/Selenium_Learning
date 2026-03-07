@@ -1,6 +1,7 @@
 package com.avinashsinha.SN05_Selenium_UI_Elements;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,6 +12,7 @@ public class SUI01_Test_Selenium_InputBox {
 
     @Test
     @Description("TC#1 : Verify the InputBox")
+    @Owner("Avinash Sinha")
     public void test_VerifyInputBox() {
 
         WebDriver driver = new EdgeDriver();

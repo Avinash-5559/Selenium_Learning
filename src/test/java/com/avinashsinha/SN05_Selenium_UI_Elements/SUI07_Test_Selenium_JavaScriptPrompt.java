@@ -1,6 +1,7 @@
 package com.avinashsinha.SN05_Selenium_UI_Elements;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +18,7 @@ public class SUI07_Test_Selenium_JavaScriptPrompt {
 
     @Test
     @Description("TC#1 : Verify the JavaScript Prompt")
+    @Owner("Avinash Sinha")
     public void test_VerifyJavaScriptPrompt() {
 
         WebDriver driver = new EdgeDriver();

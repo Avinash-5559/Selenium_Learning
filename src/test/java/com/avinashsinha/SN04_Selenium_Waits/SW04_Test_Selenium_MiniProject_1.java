@@ -1,6 +1,7 @@
 package com.avinashsinha.SN04_Selenium_Waits;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,16 +12,20 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.Arrays;
 
 public class SW04_Test_Selenium_MiniProject_1 {
 
     @Test
     @Description("TC#1 : Verify to open the MakeMyTrip Webpage")
+    @Owner("Avinash Sinha")
     public void test_MakeMyTrip_Page_Open() {
 
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--inprivate");
         edgeOptions.addArguments("--start-maximized");
+        edgeOptions.setExperimentalOption("excludeSwitches",
+                Arrays.asList("disable-popup-blocking"));
 
         WebDriver driver = new EdgeDriver(edgeOptions);
 
