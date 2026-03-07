@@ -2,6 +2,7 @@ package com.avinashsinha.SN10_Selenium_ActionClass;
 
 import com.avinashsinha.TestCaseBoilerPlate;
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -18,26 +19,29 @@ public class SAC03_Test_Selenium extends TestCaseBoilerPlate {
 
     @Test
     @Description("TC#1 : Verify the Actions Methods")
+    @Owner("Avinash Sinha")
     public void test_Actions() {
 
         String URL = "https://www.makemytrip.com/";
         driver.get(URL);
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@data-cy='closeModal']")));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
-        WebElement bigPopBox = driver.findElement(By.xpath("//span[@data-cy='closeModal']"));
-        bigPopBox.click();
+        By signInModalLocator = By.xpath("//span[@data-cy='closeModal']");
+        WebElement signInModal = wait.until(ExpectedConditions.visibilityOfElementLocated(signInModalLocator));
+        signInModal.click();
 
-        WebElement smallPopBox = driver.findElement(By.xpath("//span[@data-testid='travel-card-close']"));
-        smallPopBox.click();
+        By chatBotModalLocator = By.xpath("//div[@class='tp-dt-header-icon']//img[@alt='minimize']");
+        WebElement chatBotModal = wait.until(ExpectedConditions.visibilityOfElementLocated(chatBotModalLocator));
+        chatBotModal.click();
 
-        WebElement fromCity = driver.findElement(By.id("fromCity"));
+        By fromCityTextBoxLocator = By.id("fromCity");
+        WebElement fromCityTextBox = wait.until(ExpectedConditions.visibilityOfElementLocated(fromCityTextBoxLocator));
 
         Actions actions = new Actions(driver);
-        actions.moveToElement(fromCity)
+        actions.moveToElement(fromCityTextBox)
                 .click()
-                .sendKeys(fromCity,"IXC")
+                .sendKeys(fromCityTextBox, "IXC")
                 .build().perform();
 
         waitJVM(3000);

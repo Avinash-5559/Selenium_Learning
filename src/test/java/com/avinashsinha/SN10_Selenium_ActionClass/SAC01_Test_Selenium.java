@@ -2,6 +2,7 @@ package com.avinashsinha.SN10_Selenium_ActionClass;
 
 import com.avinashsinha.TestCaseBoilerPlate;
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,7 @@ public class SAC01_Test_Selenium extends TestCaseBoilerPlate {
 
     @Test
     @Description("TC#1 : Verify the Actions Methods")
+    @Owner("Avinash Sinha")
     public void test_Actions() {
 
         String URL = "https://awesomeqa.com/practice.html";

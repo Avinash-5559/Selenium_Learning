@@ -1,6 +1,7 @@
 package com.avinashsinha.SN01_Selenium_Basics;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
@@ -12,6 +13,7 @@ public class SB02_Test_Selenium {
 
     @Test
     @Description("TC#1 : Verify to Open the URL on Edge Browser")
+    @Owner("Avinash Sinha")
     public void test_VerifyOpenURL() {
 
         // Open the URL
