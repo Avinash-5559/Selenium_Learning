@@ -1,6 +1,7 @@
 package com.avinashsinha.SN03_Selenium_XPath;
 
 import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,6 +15,7 @@ public class SXP01_Test_Selenium_Mini_Project_1 {
 
     @Test
     @Description("TC#1 : Verify that valid Email, password on Appointment Page")
+    @Owner("Avinash Sinha")
     public void test_KatalonLogin() throws Exception {
 
         WebDriver driver = new EdgeDriver();

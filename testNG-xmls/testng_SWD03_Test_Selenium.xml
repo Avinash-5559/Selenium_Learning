@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/HP/Documents/Selenium_Learning">
         <classes>
-            <class name="com.avinashsinha.SN17_Selenium_Update_JSON.SUJ01_Test_JSON_Update"/>
+            <class name="com.avinashsinha.SN14_Selenium_Windows.SWD03_Test_Selenium"/>
         </classes>
     </test>
 </suite>

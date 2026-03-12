@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/HP/Documents/Selenium_Learning">
         <classes>
-            <class name="com.avinashsinha.SN21_Selenium_DataDrivenTesingPOI.SDDT02_Test_Selenium"/>
+            <class name="com.avinashsinha.SN09_Selenium_WebTables.SWT03_Test_Selenium_IPLAutomation"/>
         </classes>
     </test>
 </suite>

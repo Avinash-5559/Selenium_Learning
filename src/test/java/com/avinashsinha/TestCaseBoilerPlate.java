@@ -15,11 +15,12 @@ public class TestCaseBoilerPlate {
 
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--inprivate");
+        edgeOptions.addArguments("--start-maximized");
         //edgeOptions.addArguments("--headless=new");
 
         driver = new EdgeDriver(edgeOptions);
         driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
 
     }
 
