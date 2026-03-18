@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/HP/Documents/Selenium_Learning">
         <classes>
-            <class name="com.avinashsinha.SN18_Selenium_Exceptions.SE03_Test_Selenium_TimeOut"/>
+            <class name="com.avinashsinha.SN20_Selenium_Exceptions.SE03_Test_Selenium_TimeOut"/>
         </classes>
     </test>
 </suite>
