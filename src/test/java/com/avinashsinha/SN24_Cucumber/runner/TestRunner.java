@@ -1,4 +1,4 @@
-package com.avinashsinha.SN23_Cucumber.runner;
+package com.avinashsinha.SN24_Cucumber.runner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
@@ -6,6 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "src/test/java/com/avinashsinha/SN23_Cucumber/feature",
         glue = {"com.avinashsinha.SN23_Cucumber"},
+        tags = "@Smoke",
         plugin = {
                 "pretty",
                 "html:target/cucumber-report.html",
