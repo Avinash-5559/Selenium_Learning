@@ -22,8 +22,10 @@ public class SFU01_Test_Selenium extends TestCaseBoilerPlate {
         String workingDirectory = System.getProperty("user.dir");
         //System.out.println(workingDirectory);
 
-        uploadFileInput.sendKeys(workingDirectory + "/src/test/java/com/avinashsinha/SN11_Selenium_FileUpload/FileUpload.txt");
+        uploadFileInput.sendKeys(workingDirectory + "/src/test/java/com/avinashsinha/SN13_Selenium_FileUpload/FileUpload.txt");
 
         driver.findElement(By.name("submit")).click();
+
     }
+
 }
