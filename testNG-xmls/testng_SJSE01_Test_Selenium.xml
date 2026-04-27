@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="SJSE Test Suite">
         <classes>
-            <class name="com.avinashsinha.SN15_Selenium_JS_Executor.SJSE02_Test_Selenium"/>
+            <class name="com.avinashsinha.SN15_Selenium_JS_Executor.SJSE01_Test_Selenium"/>
         </classes>
     </test>
 </suite>
