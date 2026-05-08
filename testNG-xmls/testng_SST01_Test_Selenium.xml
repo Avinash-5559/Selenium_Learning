@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="SSVGE Test Suite">
+    <test verbose="2" preserve-order="true" name="SWT Test Suite">
         <classes>
-            <class name="com.avinashsinha.SN07_Selenium_SVG_Elements.SSVGE02_Test_Selenium"/>
+            <class name="com.avinashsinha.SN18_Selenium_Screenshots.SS01_Test_Selenium_Screenshots"/>
         </classes>
     </test>
 </suite>
