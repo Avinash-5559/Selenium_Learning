@@ -1,6 +1,8 @@
 package com.avinashsinha;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.AfterTest;
@@ -13,12 +15,12 @@ public class TestCaseBoilerPlate {
     @BeforeTest
     public void openBrowser() {
 
-        EdgeOptions edgeOptions = new EdgeOptions();
-        edgeOptions.addArguments("--inprivate");
-        edgeOptions.addArguments("--start-maximized");
-        //edgeOptions.addArguments("--headless=new");
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--inprivate");
+        chromeOptions.addArguments("--start-maximized");
+        //chromeOptions.addArguments("--headless=new");
 
-        driver = new EdgeDriver(edgeOptions);
+        driver = new ChromeDriver(chromeOptions);
         driver.manage().deleteAllCookies();
         //driver.manage().window().maximize();
 
