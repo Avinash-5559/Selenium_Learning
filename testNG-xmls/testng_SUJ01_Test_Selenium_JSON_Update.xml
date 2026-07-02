@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="SUJ Test Suite">
+        <classes>
+            <class name="com.avinashsinha.SN19_Selenium_Update_JSON.SUJ01_Test_Selenium_JSON_Update"/>
+        </classes>
+    </test>
+</suite>
