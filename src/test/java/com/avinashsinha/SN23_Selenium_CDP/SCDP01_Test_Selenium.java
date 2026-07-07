@@ -5,7 +5,7 @@ import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.v145.emulation.Emulation;
+import org.openqa.selenium.devtools.v148.emulation.Emulation;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -41,7 +41,9 @@ public class SCDP01_Test_Selenium {
                         Optional.empty(),
                         Optional.empty(),
                         Optional.empty(),
-                        Optional.empty()
+                        Optional.empty(),
+                Optional.empty(),
+                Optional.empty()
                 )
         );
 
