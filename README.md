@@ -1,68 +1,100 @@
 # Selenium Learning Framework - UI Automation
 
-![Java](https://img.shields.io/badge/Java-11%2B-007396?logo=java&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-IDE-000000?logo=intellijidea&logoColor=white)
+> A comprehensive **Selenium WebDriver learning repository** built using **Java**, **Selenium**, **TestNG**, **Maven**, **Apache POI**, **Chrome DevTools Protocol (CDP)**, **Cucumber**, and **Allure Reports**, covering beginner to advanced Selenium automation concepts through practical examples.
+
+<p align="center">
+
+![Java](https://img.shields.io/badge/Java-11+-blue?logo=openjdk)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-43B02A?logo=selenium&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-Build%20Tool-C71A36?logo=apachemaven&logoColor=white)
-![TestNG](https://img.shields.io/badge/TestNG-Framework-FF6C37?logo=testng&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-Web%20Automation-43B02A?logo=selenium&logoColor=white)
-![Apache POI](https://img.shields.io/badge/Apache%20POI-Excel%20DataDriven-2496ED?logo=apache&logoColor=white)
-![Allure](https://img.shields.io/badge/Allure-Reports-FF69B4?logo=qameta&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-Framework-brightgreen)
+![Apache POI](https://img.shields.io/badge/Apache%20POI-Excel%20Support-blue)
+![Cucumber](https://img.shields.io/badge/Cucumber-BDD-23D96C?logo=cucumber&logoColor=white)
+![CDP](https://img.shields.io/badge/Chrome%20DevTools-Protocol-4285F4?logo=googlechrome&logoColor=white)
+![Allure](https://img.shields.io/badge/Allure-Reports-ff69b4)
+
+</p>
 
 ---
 
-## 🗂️ Overview  
+# 🗂️ Overview
 
-This project is a **UI Automation Learning Framework** built using **Selenium WebDriver**, **Java**, and **TestNG**.
+This repository contains a comprehensive collection of **Selenium WebDriver learning programs** built with **Java**, **Selenium WebDriver**, **TestNG**, and **Maven** to help understand **UI Automation** from **fundamentals to advanced concepts**.
 
-It demonstrates end-to-end **Selenium concepts**, including locators, waits, user interactions, JavaScript Executor, file uploads, window handling, and data-driven testing using **Apache POI** and **Excel**.
+The project is organized into dedicated learning modules, each focusing on a specific Selenium topic such as **Browser Automation**, **Locators**, **XPath**, **Waits**, **UI Elements**, **Web Tables**, **Actions Class**, **Frames & Windows Handling**, **JavaScript Executor**, **Shadow DOM**, **Relative Locators**, **Chrome DevTools Protocol (CDP)**, **Cucumber BDD**, **Data-Driven Testing using Apache POI**, **AutoIT Integration**, **Exception Handling**, and other **real-world automation scenarios**.
 
----
-
-## ⚙️ Tech Stack
-
-- **Java 11+**
-- **IntelliJ IDEA** – IDE for development
-- **Maven** – Build & dependency management
-- **Selenium WebDriver** – Browser automation
-- **TestNG** – Testing framework
-- **Apache POI** – Excel-based data handling
-- **Allure Reports** – Reporting framework
-- **Hybrid Learning Structure** – Each module focused on a Selenium concept
+Each module consists of **practical, hands-on examples** designed to demonstrate **real-world automation scenarios** while following a **structured**, **modular**, and **easy-to-understand learning approach**.
 
 ---
 
-## 🚀 Features
-- Practical examples covering all **Selenium fundamentals**
-- Each topic implemented in a separate Java package (modular design)
-- Includes real-world examples for:
-  - **Locators, XPath, Waits, WebTables**
-  - **Actions Class, Windows/Frames Handling**
-  - **JavaScript Executor, Shadow DOM, Relative Locators**
-  - **Data-Driven Testing using Apache POI**
-- Organised **TestNG suite files** for easy test execution
-- Integrated **Allure Reporting** for detailed and visually appealing reports
+# ✨ Features
+
+- ✅ Selenium WebDriver Fundamentals
+- ✅ Java + TestNG + Maven
+- ✅ Browser Automation
+- ✅ Selenium Locators
+- ✅ XPath Examples
+- ✅ Wait Strategies
+- ✅ UI Elements Automation
+- ✅ SVG Element Handling
+- ✅ Web Tables Automation
+- ✅ Actions Class
+- ✅ Frames Handling
+- ✅ Multiple Windows Handling
+- ✅ Java Streams
+- ✅ JavaScript Executor
+- ✅ Shadow DOM Automation
+- ✅ Relative Locators
+- ✅ Screenshot Capture
+- ✅ JSON File Update
+- ✅ Exception Handling
+- ✅ Data-Driven Testing using Apache POI
+- ✅ AutoIT File Upload
+- ✅ Chrome DevTools Protocol (CDP)
+- ✅ Cucumber BDD
+- ✅ Allure Reporting
 
 ---
 
-## 🏗️ Project Structure
+# 🛠️ Tech Stack
 
-```bash
+| Technology | Usage |
+|------------|-------|
+| Java 11+ | Programming Language |
+| Selenium WebDriver | Browser Automation |
+| Maven | Dependency & Build Management |
+| TestNG | Test Framework |
+| Apache POI | Excel Data-Driven Testing |
+| Chrome DevTools Protocol (CDP) | Browser Network & Performance Testing |
+| Cucumber | BDD Testing |
+| AutoIT | Native Windows File Upload |
+| Allure Reports | Test Reporting |
+| IntelliJ IDEA | Development IDE |
+
+---
+
+# 🏗️ Project Structure
+
+```text
 Selenium_Learning/
 │
-├── .allure/                                                            # Allure configuration
-├── .idea/                                                              # IntelliJ IDEA project files
-├── .mvn/                                                               # Maven wrapper files
-├── allure-report/                                                      # Allure generated HTML report
-├── allure-results/                                                     # Allure results after test execution
-├── pom.xml                                                             # Maven dependencies & build setup
+├── .allure/                                                                # Allure configuration
+├── .idea/                                                                   # IntelliJ project files
+├── .mvn/                                                                    # Maven wrapper files
+├── allure-report/                                                           # Generated Allure report
+├── allure-results/                                                          # Allure execution results
+├── screenshots/                                                             # Execution screenshots
+│
+├── pom.xml                                                                  # Maven dependencies & build configuration
 ├── .gitignore
 │
 ├── src/
 │   ├── main/
-│   │   └── java/com.avinashsinha/                        
+│   │   └── java/com.avinashsinha/
 │   │
 │   ├── test/
 │   │   └── java/com.avinashsinha/
+│   │
 │   │       ├── TestCaseBoilerPlate.java
 │   │       │
 │   │       ├── SN01_Selenium_Basics/
@@ -78,7 +110,8 @@ Selenium_Learning/
 │   │       ├── SN02_Selenium_Locators/
 │   │       │   ├── SL01_Test_Selenium_Mini_Project_1.java
 │   │       │   ├── SL02_Test_Selenium_Mini_Project_2.java
-│   │       │   └── SL03_Test_Selenium_Mini_Project_3.java
+│   │       │   ├── SL03_Test_Selenium_Mini_Project_3.java
+│   │       │   └── SL04_Test_Selenium_Mini_Project_4.java
 │   │       │
 │   │       ├── SN03_Selenium_XPath/
 │   │       │   └── SXP01_Test_Selenium_Mini_Project_1.java
@@ -90,14 +123,17 @@ Selenium_Learning/
 │   │       │   ├── SW04_Test_Selenium_MiniProject_1.java
 │   │       │   └── SW05_Test_Selenium_FluentWait.java
 │   │       │
-│   │       ├── SN05_Selenium_ULElements/
+│   │       ├── SN05_Selenium_UI_Elements/
 │   │       │   ├── SUI01_Test_Selenium_InputBox.java
 │   │       │   ├── SUI02_Test_Selenium_CheckBox.java
 │   │       │   ├── SUI03_Test_Selenium_RadioButton.java
 │   │       │   ├── SUI04_Test_Selenium_StaticSelect.java
 │   │       │   ├── SUI05_Test_Selenium_JavaScriptAlert.java
 │   │       │   ├── SUI06_Test_Selenium_JavaScriptConfirm.java
-│   │       │   └── SUI07_Test_Selenium_JavaScriptPrompt.java
+│   │       │   ├── SUI07_Test_Selenium_JavaScriptPrompt.java
+│   │       │   ├── SUI08_Test_Selenium_CalendarHandle.java
+│   │       │   ├── SUI09_Test_Selenium_BrokenLinks.java
+│   │       │   └── SUI10_Test_Selenium_Height_Width_WebElement.java
 │   │       │
 │   │       ├── SN06_Selenium_WaitHelper/
 │   │       │   └── SWH01_Test_Selenium_WaitHelper.java
@@ -107,11 +143,15 @@ Selenium_Learning/
 │   │       │   └── SSVGE02_Test_Selenium.java
 │   │       │
 │   │       ├── SN08_Selenium_Mini_Project/
-│   │       │   └── SMP01_Test_Selenium.java
+│   │       │   ├── SMP01_Test_Selenium.java
+│   │       │   ├── SMP02_Test_Selenium.java
+│   │       │   └── SMP03_Test_Selenium.java
 │   │       │
 │   │       ├── SN09_Selenium_WebTables/
 │   │       │   ├── SWT01_Test_Selenium_StaticWebTable.java
-│   │       │   └── SWT02_Test_Selenium_DynamicWebTable.java
+│   │       │   ├── SWT02_Test_Selenium_DynamicWebTable.java
+│   │       │   ├── SWT03_Test_Selenium_IPLAutomation.java
+│   │       │   └── Team.java
 │   │       │
 │   │       ├── SN10_Selenium_ActionClass/
 │   │       │   ├── SAC01_Test_Selenium.java
@@ -120,134 +160,244 @@ Selenium_Learning/
 │   │       │   ├── SAC04_Test_Selenium.java
 │   │       │   └── SAC05_Test_Selenium.java
 │   │       │
-│   │       ├── SN11_Selenium_FileUpload/
+│   │       ├── SN11_Selenium_FramesHandle/
+│   │       │   └── SFH01_Test_Selenium.java
+│   │       │
+│   │       ├── SN12_Selenium_JavaStream/
+│   │       │   ├── SJS01_Test_Selenium.java
+│   │       │   ├── SJS02_Test_Selenium.java
+│   │       │   └── SJS03_Test_Selenium.java
+│   │       │
+│   │       ├── SN13_Selenium_FileUpload/
+│   │       │   ├── download.xlsx
 │   │       │   ├── FileUpload.txt
-│   │       │   └── SFU01_Test_Selenium.java
+│   │       │   ├── SFU01_Test_Selenium.java
+│   │       │   └── SFU02_Test_Selenium.java
 │   │       │
-│   │       ├── SN12_Selenium_Windows/
-│   │       │   └── SWD01_Test_Selenium.java
+│   │       ├── SN14_Selenium_Windows/
+│   │       │   ├── SWD01_Test_Selenium.java
+│   │       │   ├── SWD02_Test_Selenium.java
+│   │       │   ├── SWD03_Test_Selenium.java
+│   │       │   └── SWD04_Test_Selenium.java
 │   │       │
-│   │       ├── SN13_Selenium_JS_Executor/
-│   │       │   └── SJS01_Test_Selenium.java
+│   │       ├── SN15_Selenium_JS_Executor/
+│   │       │   ├── SJSE01_Test_Selenium.java
+│   │       │   └── SJSE02_Test_Selenium.java
 │   │       │
-│   │       ├── SN14_Selenium_JS_Executor_ShadowDOM/
-│   │       │   └── SDOM01_Test_Selenium.java
+│   │       ├── SN16_Selenium_JS_Executor_ShadowDOM/
+│   │       │   ├── SDOM01_Test_Selenium.java
+│   │       │   └── SDOM02_Test_Selenium.java
 │   │       │
-│   │       ├── SN15_Selenium_Relative_Locators/
+│   │       ├── SN17_Selenium_Relative_Locators/
 │   │       │   ├── SRL01_Test_Selenium.java
 │   │       │   ├── SRL02_Test_Selenium.java
 │   │       │   └── SRL03_Test_Selenium.java
 │   │       │
-│   │       ├── SN16_Selenium_Exceptions/
-│   │       │   ├── SEO01_Test_Selenium_NoSuchElement.java
-│   │       │   ├── SEO02_Test_Selenium_StaleElement.java
-│   │       │   ├── SEO02_Test_Selenium_StaleElement_FIX.java
-│   │       │   └── SEO03_Test_Selenium_TimeOut.java
+│   │       ├── SN18_Selenium_Screenshots/
+│   │       │   ├── SS01_Test_Selenium_Screenshots.java
+│   │       │   └── SS02_Test_Selenium_PartialScreenshot.java
 │   │       │
-│   │       └── SN17_Selenium_DataDrivenTestingPOI/
-│   │           ├── SDDT01_Test_Selenium.java
-│   │           ├── SDDT02_Test_Selenium.java
-│   │           └── UtilExcel.java
+│   │       ├── SN19_Selenium_Update_JSON/
+│   │       │   └── SUJ01_Test_Selenium_JSON_Update.java
+│   │       │
+│   │       ├── SN20_Selenium_Exceptions/
+│   │       │   ├── SE01_Test_Selenium_NoSuchElement.java
+│   │       │   ├── SE02_Test_Selenium_StaleElement.java
+│   │       │   ├── SE02_Test_Selenium_StaleElement_FIX.java
+│   │       │   └── SE03_Test_Selenium_TimeOut.java
+│   │       │
+│   │       ├── SN21_Selenium_DataDrivenTestingPOI/
+│   │       │   ├── SDDT01_Test_Selenium.java
+│   │       │   ├── SDDT02_Test_Selenium.java
+│   │       │   └── UtilExcel.java
+│   │       │
+│   │       ├── SN22_Selenium_MiscellaneousTopics/
+│   │       │   ├── SMT01_Test_Selenium_HandleHTTPSCertificate.java
+│   │       │   ├── SMT02_Test_Selenium_NetworkInterception.java
+│   │       │   ├── SMT03_Test_Selenium_HandleWindowPopUp.java
+│   │       │   ├── SMT04_Test_Selenium_UploadFileAutoIt.java
+│   │       │   ├── SMT05_Test_Selenium_DownloadFile.java
+│   │       │   └── SMT06_Test_Selenium_DownloadDeleteFile.java
+│   │       │
+│   │       ├── SN23_Selenium_CDP/
+│   │       │   ├── SCDP01_Test_Selenium.java
+│   │       │   ├── SCDP02_Test_Selenium.java
+│   │       │   ├── SCDP03_Test_Selenium.java
+│   │       │   ├── SCDP04_Test_Selenium.java
+│   │       │   ├── SCDP05_Test_Selenium.java
+│   │       │   ├── SCDP06_Test_Selenium.java
+│   │       │   ├── SCDP07_Test_Selenium.java
+│   │       │   ├── SCDP08_Test_Selenium.java
+│   │       │   ├── SCDP09_Test_Selenium.java
+│   │       │   └── SCDP10_Test_Selenium.java
+│   │       │
+│   │       └── SN24_Cucumber/
+│   │           ├── feature/
+│   │           │   └── Ecommerce.feature
+│   │           ├── hooks/
+│   │           │   └── Hooks.java
+│   │           ├── runner/
+│   │           │   └── TestRunner.java
+│   │           └── stepDefinitions/
+│   │               └── Ecommerce.java
 │   │
 │   └── resources/
-│       └── TestData.xlsx
 │
-├── testNG-xmls/                                                        # Organized TestNG suite files
-│   ├── testng_SAC01_Test_Selenium.xml
-│   ├── testng_SB01_Test_Selenium.xml
-│   ├── testng_SUI01_Test_Selenium.xml
-│   ├── testng_SW01_Test_Selenium.xml
-│   ├── testng_SSVG01_Test_Selenium.xml
-│   ├── testng_SXP01_Test_Selenium.xml
-│   ├── testng_UtilExcel.xml
-│   └── ... (many additional suite files)
+├── testNG-xmls/                                                           # TestNG Suite Files
+│   ├── testng_SB*.xml
+│   ├── testng_SL*.xml
+│   ├── testng_SXP*.xml
+│   ├── testng_SW*.xml
+│   ├── testng_SUI*.xml
+│   ├── testng_SWH*.xml
+│   ├── testng_SSVGE*.xml
+│   ├── testng_SMP*.xml
+│   ├── testng_SWT*.xml
+│   ├── testng_SAC*.xml
+│   ├── testng_SFH*.xml
+│   ├── testng_SJS*.xml
+│   ├── testng_SFU*.xml
+│   ├── testng_SWD*.xml
+│   ├── testng_SJSE*.xml
+│   ├── testng_SDOM*.xml
+│   ├── testng_SRL*.xml
+│   ├── testng_SS*.xml
+│   ├── testng_SUJ*.xml
+│   ├── testng_SE*.xml
+│   ├── testng_SDDT*.xml
+│   ├── testng_SMT*.xml
+│   ├── testng_SCDP*.xml
+│   └── testng_UtilExcel.xml
+│
+├── fileupload.au3                                                         # AutoIT script
+├── fileupload.exe                                                         # AutoIT executable
+├── PDF.pdf                                                                # Sample PDF
 │
 └── README.md
 ```
 
 ---
 
-## ▶️ Running Tests
+# 📚 Learning Modules
 
-### Run a Specific TestNG Suite
-
-```bash
-mvn clean test -DsuiteXmlFile=testng_SAC01_Test_Selenium.xml
-```
-#### Commonly Used TestNG XMLs
-
-| TestNG File                       | Purpose                    |
-| :-------------------------------- | :------------------------- |
-| `testng_SAC01_Test_Selenium.xml`  | Basic Selenium tests       |
-| `testng_SB01_Test_Selenium.xml`   | Browser handling           |
-| `testng_SUI01_Test_Selenium.xml`  | UI Elements & Interactions |
-| `testng_SW01_Test_Selenium.xml`   | Waits and Synchronization  |
-| `testng_SSVG01_Test_Selenium.xml` | SVG Elements Handling      |
-| `testng_SXP01_Test_Selenium.xml`  | XPath Practice             |
-| `testng_UtilExcel.xml`            | Excel Data-Driven Tests    |
+| Module | Topic |
+|---------|-------------------------------|
+| SN01 | Selenium Basics |
+| SN02 | Selenium Locators |
+| SN03 | XPath |
+| SN04 | Wait Strategies |
+| SN05 | UI Elements |
+| SN06 | Wait Helper |
+| SN07 | SVG Elements |
+| SN08 | Selenium Mini Project |
+| SN09 | Web Tables |
+| SN10 | Actions Class |
+| SN11 | Frames Handling |
+| SN12 | Java Streams |
+| SN13 | File Upload |
+| SN14 | Windows Handling |
+| SN15 | JavaScript Executor |
+| SN16 | Shadow DOM |
+| SN17 | Relative Locators |
+| SN18 | Screenshots |
+| SN19 | JSON Update |
+| SN20 | Exception Handling |
+| SN21 | Data-Driven Testing (Apache POI) |
+| SN22 | Miscellaneous Selenium Topics |
+| SN23 | Chrome DevTools Protocol (CDP) |
+| SN24 | Cucumber BDD |
 
 ---
 
-## 📊 Reporting
+# ▶️ Running Tests
 
-### Generate Allure Report
+Execute any TestNG suite using Maven.
+
+### Example
+
+```bash
+mvn clean test -DsuiteXmlFile=testNG-xmls/testng_SB01_Test_Selenium.xml
+```
+
+---
+
+### Available Test Suites
+
+| Category | Example XML |
+|----------|-------------|
+| Selenium Basics | `testng_SB01_Test_Selenium.xml` |
+| Selenium Locators | `testng_SL01_Test_Selenium.xml` |
+| XPath | `testng_SXP01_Test_Selenium.xml` |
+| Waits | `testng_SW01_Test_Selenium.xml` |
+| UI Elements | `testng_SUI01_Test_Selenium.xml` |
+| Wait Helper | `testng_SWH01_Test_Selenium.xml` |
+| SVG Elements | `testng_SSVGE01_Test_Selenium.xml` |
+| Mini Project | `testng_SMP01_Test_Selenium.xml` |
+| Web Tables | `testng_SWT01_Test_Selenium.xml` |
+| Actions Class | `testng_SAC01_Test_Selenium.xml` |
+| Frames | `testng_SFH01_Test_Selenium.xml` |
+| Java Streams | `testng_SJS01_Test_Selenium.xml` |
+| File Upload | `testng_SFU01_Test_Selenium.xml` |
+| Windows | `testng_SWD01_Test_Selenium.xml` |
+| JavaScript Executor | `testng_SJSE01_Test_Selenium.xml` |
+| Shadow DOM | `testng_SDOM01_Test_Selenium.xml` |
+| Relative Locators | `testng_SRL01_Test_Selenium.xml` |
+| Screenshots | `testng_SS01_Test_Selenium.xml` |
+| JSON Update | `testng_SUJ01_Test_Selenium_JSON_Update.xml` |
+| Exceptions | `testng_SE01_Test_Selenium.xml` |
+| Data-Driven Testing | `testng_SDDT01_Test_Selenium.xml` |
+| Miscellaneous Topics | `testng_SMT01_Test_Selenium.xml` |
+| Chrome DevTools Protocol | `testng_SCDP01_Test_Selenium.xml` |
+
+---
+
+# 📊 Allure Reports
+
+Generate the report using:
 
 ```bash
 allure serve allure-results
 ```
 
-This will launch an interactive **Allure report dashboard** in your browser.
-
-Example Allure dashboard view:
-
-![a](https://github.com/user-attachments/assets/11e3071c-0d24-43b5-8ecc-f4049fc46928)
+The command launches an interactive Allure dashboard in your default browser.
 
 ---
 
-## 🧩 Example — Data-Driven Test with Apache POI
+# 🌟 Repository Highlights
 
-```java
-@Test(dataProvider = "ExcelDataProvider")
-public void loginTest(String username, String password) {
-    driver.get("https://example.com/login");
-    driver.findElement(By.id("username")).sendKeys(username);
-    driver.findElement(By.id("password")).sendKeys(password);
-    driver.findElement(By.id("loginBtn")).click();
-}
-```
-
----
-
-## 📚 Selenium Learning Modules
-
-| Module | Topic                            |
-| :----- | :------------------------------- |
-| SN01   | Selenium Basics                  |
-| SN02   | Locators                         |
-| SN03   | XPath                            |
-| SN04   | Waits                            |
-| SN05   | Web Elements                     |
-| SN06   | Wait Helper                      |
-| SN07   | SVG Elements                     |
-| SN08   | Mini Project                     |
-| SN09   | Web Tables                       |
-| SN10   | Action Class                     |
-| SN11   | File Upload                      |
-| SN12   | Windows & Frames                 |
-| SN13   | JavaScript Executor              |
-| SN14   | Shadow DOM                       |
-| SN15   | Relative Locators                |
-| SN16   | Exception Handling               |
-| SN17   | Data-Driven Testing (Apache POI) |
+- ✅ 24 Selenium Learning Modules
+- ✅ 90+ Practical Selenium Programs
+- ✅ Browser Automation with Selenium WebDriver
+- ✅ XPath & Advanced Locators
+- ✅ Wait Strategies
+- ✅ UI Elements Automation
+- ✅ SVG Elements
+- ✅ Web Tables Automation
+- ✅ Actions Class
+- ✅ Frames & Windows Handling
+- ✅ Java Streams
+- ✅ JavaScript Executor
+- ✅ Shadow DOM
+- ✅ Relative Locators
+- ✅ Screenshot Capture
+- ✅ JSON File Update
+- ✅ Exception Handling
+- ✅ Data-Driven Testing with Apache POI
+- ✅ AutoIT File Upload
+- ✅ Chrome DevTools Protocol (CDP)
+- ✅ Cucumber BDD
+- ✅ Allure Reporting
 
 ---
 
-## 📌 Author
+# 👨‍💻 Author
 
-👤 Avinash Sinha
+**Avinash Sinha**
 
----
-
-📝 This repository is created exclusively for **educational and practice use**.
+If you found this repository helpful, consider giving it a ⭐ on GitHub.
 
 ---
+
+# 📄 License
+
+This project is intended for **educational** and **learning purposes**.
