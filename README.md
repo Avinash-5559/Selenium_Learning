@@ -1,6 +1,6 @@
-# Selenium Learning Framework - UI Automation
+# 🚀 Selenium Learning Framework - UI Automation
 
-> A comprehensive **Selenium WebDriver learning repository** built using **Java**, **Selenium**, **TestNG**, **Maven**, **Apache POI**, **Chrome DevTools Protocol (CDP)**, **Cucumber**, and **Allure Reports**, covering beginner to advanced Selenium automation concepts through practical examples.
+> A comprehensive **Selenium WebDriver learning repository** built using **Java**, **Selenium WebDriver**, **TestNG**, **Maven**, **Apache POI**, **Chrome DevTools Protocol (CDP)**, **Cucumber BDD**, and **Allure Reports**, covering UI automation concepts from **fundamentals to advanced real-world scenarios** through practical examples.
 
 <p align="center">
 
@@ -19,36 +19,33 @@
 
 # 🗂️ Overview
 
-This repository contains a comprehensive collection of **Selenium WebDriver learning programs** built with **Java**, **Selenium WebDriver**, **TestNG**, and **Maven** to help understand **UI Automation** from **fundamentals to advanced concepts**.
+This repository contains a comprehensive collection of **Selenium WebDriver automation programs** developed using **Java**, **Selenium WebDriver**, **TestNG**, and **Maven** to master **UI Automation** through practical, real-world examples.
 
-The project is organized into dedicated learning modules, each focusing on a specific Selenium topic such as **Browser Automation**, **Locators**, **XPath**, **Waits**, **UI Elements**, **Web Tables**, **Actions Class**, **Frames & Windows Handling**, **JavaScript Executor**, **Shadow DOM**, **Relative Locators**, **Chrome DevTools Protocol (CDP)**, **Cucumber BDD**, **Data-Driven Testing using Apache POI**, **AutoIT Integration**, **Exception Handling**, and other **real-world automation scenarios**.
+The repository is organized into dedicated learning modules covering **Browser Automation**, **Locators**, **XPath**, **Wait Strategies**, **UI Elements**, **Web Tables**, **Actions Class**, **Frames & Windows Handling**, **JavaScript Executor**, **Shadow DOM**, **Relative Locators**, **Chrome DevTools Protocol (CDP)**, **Cucumber BDD**, **Data-Driven Testing with Apache POI**, **AutoIT Integration**, **Exception Handling**, and other advanced Selenium concepts.
 
-Each module consists of **practical, hands-on examples** designed to demonstrate **real-world automation scenarios** while following a **structured**, **modular**, and **easy-to-understand learning approach**.
+Each module includes practical examples that demonstrate real-world automation techniques while following a structured, modular, and progressive learning approach.
 
 ---
 
-# ✨ Features
+# ✨ Repository Highlights
 
 - ✅ Selenium WebDriver Fundamentals
-- ✅ Java + TestNG + Maven
 - ✅ Browser Automation
-- ✅ Selenium Locators
-- ✅ XPath Examples
+- ✅ Selenium Locators & XPath
 - ✅ Wait Strategies
 - ✅ UI Elements Automation
-- ✅ SVG Element Handling
-- ✅ Web Tables Automation
+- ✅ SVG Elements
+- ✅ Web Tables
 - ✅ Actions Class
-- ✅ Frames Handling
-- ✅ Multiple Windows Handling
+- ✅ Frames & Multiple Windows
 - ✅ Java Streams
 - ✅ JavaScript Executor
-- ✅ Shadow DOM Automation
+- ✅ Shadow DOM
 - ✅ Relative Locators
 - ✅ Screenshot Capture
 - ✅ JSON File Update
 - ✅ Exception Handling
-- ✅ Data-Driven Testing using Apache POI
+- ✅ Data-Driven Testing with Apache POI
 - ✅ AutoIT File Upload
 - ✅ Chrome DevTools Protocol (CDP)
 - ✅ Cucumber BDD
@@ -60,16 +57,16 @@ Each module consists of **practical, hands-on examples** designed to demonstrate
 
 | Technology | Usage |
 |------------|-------|
-| Java 11+ | Programming Language |
-| Selenium WebDriver | Browser Automation |
-| Maven | Dependency & Build Management |
-| TestNG | Test Framework |
-| Apache POI | Excel Data-Driven Testing |
-| Chrome DevTools Protocol (CDP) | Browser Network & Performance Testing |
-| Cucumber | BDD Testing |
-| AutoIT | Native Windows File Upload |
-| Allure Reports | Test Reporting |
-| IntelliJ IDEA | Development IDE |
+| **Java 11+** | Programming Language |
+| **Selenium WebDriver** | Browser Automation |
+| **Maven** | Dependency & Build Management |
+| **TestNG** | Test Framework |
+| **Apache POI** | Excel Data-Driven Testing |
+| **Chrome DevTools Protocol (CDP)** | Browser Network & Performance Testing |
+| **Cucumber** | Behavior-Driven Development (BDD) |
+| **AutoIT** | Native Windows File Upload |
+| **Allure Reports** | Test Reporting |
+| **IntelliJ IDEA** | Development IDE |
 
 ---
 
@@ -78,7 +75,7 @@ Each module consists of **practical, hands-on examples** designed to demonstrate
 ```text
 Selenium_Learning/
 │
-├── .allure/                                                                # Allure configuration
+├── .allure/                                                                 # Allure configuration
 ├── .idea/                                                                   # IntelliJ project files
 ├── .mvn/                                                                    # Maven wrapper files
 ├── allure-report/                                                           # Generated Allure report
@@ -243,7 +240,7 @@ Selenium_Learning/
 │   │
 │   └── resources/
 │
-├── testNG-xmls/                                                           # TestNG Suite Files
+├── testNG-xmls/                                                             # TestNG Suite Files
 │   ├── testng_SB*.xml
 │   ├── testng_SL*.xml
 │   ├── testng_SXP*.xml
@@ -269,9 +266,9 @@ Selenium_Learning/
 │   ├── testng_SCDP*.xml
 │   └── testng_UtilExcel.xml
 │
-├── fileupload.au3                                                         # AutoIT script
-├── fileupload.exe                                                         # AutoIT executable
-├── PDF.pdf                                                                # Sample PDF
+├── fileupload.au3                                                           # AutoIT script
+├── fileupload.exe                                                           # AutoIT executable
+├── PDF.pdf                                                                  # Sample PDF
 │
 └── README.md
 ```
@@ -280,32 +277,32 @@ Selenium_Learning/
 
 # 📚 Learning Modules
 
-| Module | Topic |
-|---------|-------------------------------|
-| SN01 | Selenium Basics |
-| SN02 | Selenium Locators |
-| SN03 | XPath |
-| SN04 | Wait Strategies |
-| SN05 | UI Elements |
-| SN06 | Wait Helper |
-| SN07 | SVG Elements |
-| SN08 | Selenium Mini Project |
-| SN09 | Web Tables |
-| SN10 | Actions Class |
-| SN11 | Frames Handling |
-| SN12 | Java Streams |
-| SN13 | File Upload |
-| SN14 | Windows Handling |
-| SN15 | JavaScript Executor |
-| SN16 | Shadow DOM |
-| SN17 | Relative Locators |
-| SN18 | Screenshots |
-| SN19 | JSON Update |
-| SN20 | Exception Handling |
-| SN21 | Data-Driven Testing (Apache POI) |
-| SN22 | Miscellaneous Selenium Topics |
-| SN23 | Chrome DevTools Protocol (CDP) |
-| SN24 | Cucumber BDD |
+| Module | Description |
+|---------|-------------|
+| **SN01** | Selenium Basics |
+| **SN02** | Selenium Locators |
+| **SN03** | XPath |
+| **SN04** | Wait Strategies |
+| **SN05** | UI Elements Automation |
+| **SN06** | Wait Helper Utilities |
+| **SN07** | SVG Elements |
+| **SN08** | Selenium Mini Projects |
+| **SN09** | Web Tables |
+| **SN10** | Actions Class |
+| **SN11** | Frames Handling |
+| **SN12** | Java Streams |
+| **SN13** | File Upload & Download |
+| **SN14** | Multiple Windows Handling |
+| **SN15** | JavaScript Executor |
+| **SN16** | Shadow DOM |
+| **SN17** | Relative Locators |
+| **SN18** | Screenshot Capture |
+| **SN19** | JSON File Manipulation |
+| **SN20** | Exception Handling |
+| **SN21** | Data-Driven Testing using Apache POI |
+| **SN22** | Miscellaneous Selenium Topics |
+| **SN23** | Chrome DevTools Protocol (CDP) |
+| **SN24** | Cucumber BDD |
 
 ---
 
@@ -319,8 +316,6 @@ Execute any TestNG suite using Maven.
 mvn clean test -DsuiteXmlFile=testNG-xmls/testng_SB01_Test_Selenium.xml
 ```
 
----
-
 ### Available Test Suites
 
 | Category | Example XML |
@@ -328,7 +323,7 @@ mvn clean test -DsuiteXmlFile=testNG-xmls/testng_SB01_Test_Selenium.xml
 | Selenium Basics | `testng_SB01_Test_Selenium.xml` |
 | Selenium Locators | `testng_SL01_Test_Selenium.xml` |
 | XPath | `testng_SXP01_Test_Selenium.xml` |
-| Waits | `testng_SW01_Test_Selenium.xml` |
+| Wait Strategies | `testng_SW01_Test_Selenium.xml` |
 | UI Elements | `testng_SUI01_Test_Selenium.xml` |
 | Wait Helper | `testng_SWH01_Test_Selenium.xml` |
 | SVG Elements | `testng_SSVGE01_Test_Selenium.xml` |
@@ -343,8 +338,8 @@ mvn clean test -DsuiteXmlFile=testNG-xmls/testng_SB01_Test_Selenium.xml
 | Shadow DOM | `testng_SDOM01_Test_Selenium.xml` |
 | Relative Locators | `testng_SRL01_Test_Selenium.xml` |
 | Screenshots | `testng_SS01_Test_Selenium.xml` |
-| JSON Update | `testng_SUJ01_Test_Selenium_JSON_Update.xml` |
-| Exceptions | `testng_SE01_Test_Selenium.xml` |
+| JSON Update | `testng_SUJ01_Test_Selenium.xml` |
+| Exception Handling | `testng_SE01_Test_Selenium.xml` |
 | Data-Driven Testing | `testng_SDDT01_Test_Selenium.xml` |
 | Miscellaneous Topics | `testng_SMT01_Test_Selenium.xml` |
 | Chrome DevTools Protocol | `testng_SCDP01_Test_Selenium.xml` |
@@ -353,40 +348,35 @@ mvn clean test -DsuiteXmlFile=testNG-xmls/testng_SB01_Test_Selenium.xml
 
 # 📊 Allure Reports
 
-Generate the report using:
+Generate the Allure report after executing the test suite:
 
 ```bash
 allure serve allure-results
 ```
 
-The command launches an interactive Allure dashboard in your default browser.
+The command launches an interactive **Allure dashboard** displaying execution statistics, test results, logs, screenshots, and detailed test insights.
 
 ---
 
-# 🌟 Repository Highlights
+# ⭐ Repository Highlights
 
-- ✅ 24 Selenium Learning Modules
-- ✅ 90+ Practical Selenium Programs
-- ✅ Browser Automation with Selenium WebDriver
-- ✅ XPath & Advanced Locators
-- ✅ Wait Strategies
-- ✅ UI Elements Automation
-- ✅ SVG Elements
-- ✅ Web Tables Automation
-- ✅ Actions Class
-- ✅ Frames & Windows Handling
-- ✅ Java Streams
-- ✅ JavaScript Executor
-- ✅ Shadow DOM
-- ✅ Relative Locators
-- ✅ Screenshot Capture
-- ✅ JSON File Update
-- ✅ Exception Handling
-- ✅ Data-Driven Testing with Apache POI
-- ✅ AutoIT File Upload
-- ✅ Chrome DevTools Protocol (CDP)
-- ✅ Cucumber BDD
-- ✅ Allure Reporting
+- 🚀 24 Structured Selenium Learning Modules
+- 💻 90+ Practical Selenium Automation Programs
+- 🌐 Browser Automation using Selenium WebDriver
+- 🎯 Advanced Locators & XPath Strategies
+- ⏱️ Synchronization with Wait Strategies
+- 🖱️ UI Elements, Web Tables & Actions Class
+- 🪟 Frames & Multiple Windows Handling
+- ⚡ JavaScript Executor & Shadow DOM Automation
+- 📍 Relative Locators
+- 📸 Screenshot Capture
+- 📄 JSON File Manipulation
+- ⚠️ Selenium Exception Handling
+- 📊 Data-Driven Testing with Apache POI
+- 📁 AutoIT File Upload Automation
+- 🌍 Chrome DevTools Protocol (CDP)
+- 🥒 Cucumber BDD Integration
+- 📈 Interactive Allure Reporting
 
 ---
 
@@ -394,10 +384,10 @@ The command launches an interactive Allure dashboard in your default browser.
 
 **Avinash Sinha**
 
-If you found this repository helpful, consider giving it a ⭐ on GitHub.
+If you found this repository useful, consider giving it a ⭐.
 
 ---
 
 # 📄 License
 
-This project is intended for **educational** and **learning purposes**.
+This repository is intended for **educational**, **learning**, and **practice purposes**.
