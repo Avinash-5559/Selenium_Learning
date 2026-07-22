@@ -4,7 +4,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.v145.fetch.Fetch;
+import org.openqa.selenium.devtools.v148.fetch.Fetch;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
