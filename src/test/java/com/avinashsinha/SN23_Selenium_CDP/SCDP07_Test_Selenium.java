@@ -7,10 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.devtools.DevTools;
 
-import org.openqa.selenium.devtools.v145.fetch.Fetch;
-import org.openqa.selenium.devtools.v145.fetch.model.RequestPattern;
-import org.openqa.selenium.devtools.v145.fetch.model.RequestStage;
-import org.openqa.selenium.devtools.v145.network.model.ErrorReason;
+import org.openqa.selenium.devtools.v148.fetch.Fetch;
+import org.openqa.selenium.devtools.v148.fetch.model.RequestPattern;
+import org.openqa.selenium.devtools.v148.fetch.model.RequestStage;
+import org.openqa.selenium.devtools.v148.network.model.ErrorReason;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
